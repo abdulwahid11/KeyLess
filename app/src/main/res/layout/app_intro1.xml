@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoopacity50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <ImageView
+        android:id="@+id/intro_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/introcards"
+        />
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="No Passwords"
+        android:layout_below="@+id/intro_cards"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/explanationTxt"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/introText"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8dp"
+
+        android:text="When it comes to crypto,losing your  key or recovery phrase can mean losing everything"
+        />
+
+
+
+</RelativeLayout>
